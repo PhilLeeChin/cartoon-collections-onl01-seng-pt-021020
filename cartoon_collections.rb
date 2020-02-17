@@ -1,8 +1,10 @@
-def roll_call_dwarves(array)# code an argument here
+def roll_call_dwarves(name)# code an argument here
   # Your code here
-  newarr = []
-  array.each_with_index {|name, i| newarr[name] = i}
-  puts "#{i}. #{name}"
+  newarr = name.split
+  newname = []
+  newarr.each_with_index do |i|
+    newstr << "#{i}"
+  end
 end
 
 def summon_captain_planet# code an argument here
