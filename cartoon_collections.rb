@@ -30,4 +30,5 @@ def find_the_cheese(types)# code an argument here
     if types.include? == name
       return name
     end
+  end
 end
