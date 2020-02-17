@@ -5,7 +5,7 @@ def roll_call_dwarves(array)# code an argument here
     newarr << "#{name}"
     i += 1
   end
-  newarr.split(" ")
+  newarr.join(" ")
 end
 
 def summon_captain_planet# code an argument here
