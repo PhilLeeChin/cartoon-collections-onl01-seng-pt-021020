@@ -1,7 +1,6 @@
-def roll_call_dwarves(name)# code an argument here
+def roll_call_dwarves(array)# code an argument here
   # Your code here
-  newarr = name.split
-  newname = []
+  newarr = []
   newarr.each_with_index do |i|
     newstr << "#{i}"
   end
