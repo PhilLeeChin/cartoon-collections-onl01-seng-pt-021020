@@ -3,6 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   newarr = []
   array.each_with_index do |name, i|
     newarr << "#{i}. #{name}"
+    i += 1
   end
 end
 
