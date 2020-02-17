@@ -4,7 +4,6 @@ def roll_call_dwarves# code an argument here
   array.each do |i|
     puts "#{i}"
   end
-  newarr
 end
 
 def summon_captain_planet# code an argument here
