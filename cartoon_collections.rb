@@ -3,6 +3,8 @@ def roll_call_dwarves# code an argument here
   newarr = []
   array.each_with_index do |i|
     newarr << "#{array[i]}"
+  end
+  newarr
 end
 
 def summon_captain_planet# code an argument here
