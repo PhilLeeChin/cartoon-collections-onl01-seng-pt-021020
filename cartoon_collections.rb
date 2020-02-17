@@ -1,8 +1,8 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   newarr = []
-  newarr.each_with_index do |i|
-    newstr << "#{i}"
+  array.each_with_index do |i|
+    newarr << "#{i}"
   end
 end
 
